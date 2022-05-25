@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ 
+.LandingPage{
+  display: flex;
+  line-height: 259px;
+  background: black;
+}
+
+.wwe-logo img{
+  width: 700px;
+  height: 450px;
+  margin-top: 8vh;
+  margin-left: 2vh;
+}
+.welcome-btn{
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+}
+.welcome h1{
+  color: white;
+}
+
+.btn button{
+  width: 14vh;
+  height: 6vh;
+  border-radius: 15px;
+  color:white;
+  background-color: rgba(255, 0, 0, 0.651);
+  font-size: large;
+}
+
+.btn{
+  margin-bottom: 20vh;
+}
