@@ -11,9 +11,8 @@ export default function Post(props) {
         <h1 className="three-dots">...</h1>
       </div>
       <div className="post-image">
-        {console.log("http://localhost:9000/" + props.image)}
-        {console.log(props)}
-        <img src={"http://localhost:9000/" + props.image} alt="post" />
+        
+        <img src={process.env.REACT_APP_API + '/image/' + props.image} alt="post" />
       </div>
       <div className="bottom-portion">
         <p className="like-button">❤️</p>

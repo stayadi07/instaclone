@@ -17,6 +17,7 @@ const Postview = () => {
     });
     let actualData = await response.json();
     const d = actualData.user
+    d.reverse()
     console.log(d);
     usedata(d);
   };
